@@ -1,0 +1,523 @@
+/* Reset and base styles  */
+* {
+	padding: 0px;
+	margin: 0px;
+	border: none;
+}
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+
+/* Links */
+
+a, a:link, a:visited  {
+    text-decoration: none;
+}
+
+a:hover  {
+    text-decoration: none;
+}
+
+/* Common */
+
+aside, nav, footer, header, section, main {
+	display: block;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    font-size: inherit;
+	font-weight: inherit;
+}
+
+ul, ul li {
+	list-style: none;
+}
+
+img {
+	vertical-align: top;
+}
+
+img, svg {
+	max-width: 100%;
+	height: auto;
+}
+
+address {
+  font-style: normal;
+}
+
+/* Form */
+
+input, textarea, button, select {
+	font-family: inherit;
+    font-size: inherit;
+    color: inherit;
+    background-color: transparent;
+}
+
+input::-ms-clear {
+	display: none;
+}
+
+button, input[type="submit"] {
+    display: inline-block;
+    box-shadow: none;
+    background-color: transparent;
+    background: none;
+    cursor: pointer;
+}
+
+input:focus, input:active,
+button:focus, button:active {
+    outline: none;
+}
+
+button::-moz-focus-inner {
+	padding: 0;
+	border: 0;
+}
+
+label {
+	cursor: pointer;
+}
+
+legend {
+	display: block;
+}
+.roboto-thin {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .roboto-light {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .roboto-regular {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .roboto-medium {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .roboto-bold {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .roboto-black {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .roboto-thin-italic {
+    font-family: "Roboto", serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .roboto-light-italic {
+    font-family: "Roboto", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .roboto-regular-italic {
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .roboto-medium-italic {
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .roboto-bold-italic {
+    font-family: "Roboto", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .roboto-black-italic {
+    font-family: "Roboto", serif;
+    font-weight: 900;
+    font-style: italic;
+  }
+  .Pididi{
+    display: flex;
+    width: 1920px;
+    height: 140px;
+    background-color: #131313;
+  }
+  .imgs{
+    display: flex;
+    width: 23px;
+    height: 40px;
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .Cra{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 20px;
+    align-items: center;
+    margin-left: 10px ;
+  font-style: italic;
+
+  }
+  .biz{
+    display: flex;
+    color: #FFFFFF;
+    font-size: 20px;
+align-items: center;
+margin-left: 2px;    
+}
+.nadpisi{
+  display: flex;
+ align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  font-size: 20px;
+  color: #FFFFFF;
+margin-left: 380px;
+}
+.agentPididi{
+  display: flex;
+  width: 50px;
+  height: 50px;
+  margin-top: 47px;
+margin-left: 500px;
+
+}
+.asdfg{
+  display: flex;
+  background-color: #131313;
+  width: 1920px;
+  height: 2000px;
+}
+.more{
+  display: flex;
+  font-size: 20px;
+  color: #EDBC5A;
+  margin-top: 200px;
+  margin-left: -1820px;
+
+}
+.imges{
+  display: flex;
+  width: 963px;
+  height: 872px;
+  margin-left: 772px;
+  margin-top: 200px;
+
+}
+.jone{
+  display: flex;
+  color: #FFFFFF;
+  margin-top: 200px;
+  margin-left: -1600px;
+  font-size: 75px;
+}
+.pizda{
+  display: flex;
+  color: #B0B0B0;
+  margin-top: 300px;
+  margin-left: -600px;
+}
+.pisa{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-top: 420px;
+  margin-left: -664px;
+}
+.texit{
+  display: flex;
+  color: #B0B0B0;
+  margin-top: 480px;
+  margin-left: -60px;
+}
+.rt{
+  display: flex;
+  color: #B0B0B0;
+  margin-top: 530px;
+  margin-left: -120px;
+}
+.opq{
+  display: flex;
+  width: 215px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 570px;
+  margin-left: -120px;
+}
+.ghjkl{
+  display: flex;
+  color: #FFFFFF;
+  margin-top: 412px;
+  margin-left: 340px;
+  font-size: 20px;
+}
+.dsfgdhgfd{
+  display: flex;
+  color: #B0B0B0;
+  margin-top: 450px;
+  margin-left: -107px;
+  gap: 10px;
+}
+.palka{
+  display: flex;
+  background-color: #FFFFFF;
+  width: 200px;
+  height: 1px;
+  margin-top: 550px;
+  margin-left: -120px;
+}
+.wb{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-top: 630px;
+margin-left: -750px;
+}
+.fgddfgfsdg{
+  display: flex;
+  color: #B0B0B0;
+  font-size: 16px;
+margin-top: 670px;
+margin-left: -50px;
+}
+.gfghfsdhdf{
+  display: flex;
+  font-size: 16px;
+  color: #B0B0B0;
+  margin-top: 710px;
+  margin-left: -92px;
+}
+.shgdfjghdf{
+  display: flex;
+  width: 215px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 760px;
+  margin-left: -150px;
+}
+.sgjh{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-top: 615px;
+  margin-left: 350px;
+}
+.jhgsssssd{
+  display: flex;
+  color: #B0B0B0;
+  margin-top: 660px;
+  margin-left: -60px;
+}
+.gsdhkhg{
+  display: flex;
+  color: #B0B0B0;
+  margin-top: 660px;
+  margin-left: 20px;
+}
+.kdbtyk{
+  display: flex;
+  color: #B0B0B0;
+  margin-top: 700px;
+  margin-left: -210px;
+}
+.hjgflkjjsda{
+  display: flex;
+  color: #B0B0B0;
+  margin-top: 700px;
+  margin-left: 30px;
+}
+.gfdsljkh{
+  display: flex;
+  width: 250px;
+  height: 1px;
+  background-color: #FFFFFF;
+margin-top: 740px;
+margin-left: -200px;
+}
+.dfghjert{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 120px;
+  margin-top: 1200px;
+  margin-left: -800px;
+}
+.asdfmvbnftyd{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 30px;
+margin-top: 1350px;
+margin-left: -170px;
+}
+.nbftyrhjfg{
+  display: flex;
+  font-size: 120px;
+  color: #FFFFFF;
+  margin-top: 1200px;
+  margin-left: 300px;
+}
+.Yach{
+  display: flex;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-top: 1350px;
+  margin-left: -210px;
+}
+.sdfjgh{
+  display: flex;
+  font-size: 120px;
+  color: #FFFFFF;
+  margin-top: 1200px;
+  margin-left: 300px;
+}
+.sdzxcukyh{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 30px;
+  margin-top: 1350px;
+  margin-left: -160px;
+}
+.xcipiuty{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 120px;
+  margin-top: 1200px;
+  margin-left: 300px;
+}
+.cvxkuu{
+  display: flex;
+  font-size: 30px;
+  color: #FFFFFF;
+  margin-top: 1350px;
+  margin-left: -170px;
+}
+.dfsjklhrty{
+  display: flex;
+  font-size: 28px;
+  color: #FFFFFF;
+margin-top: 1470px;
+margin-left: -1680px;
+}
+.bhurtvk{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #FFFFFF;
+  font-size: 14px;
+  margin: 0;
+  margin-top: 1520px;
+  margin-left: -130px;
+}
+.bvtryu{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 28px;
+  margin-top: 1470px;
+margin-left: 300px;
+}
+.dfyruikly{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  color: #FFFFFF;
+  margin: 0;
+  margin-top: 1520px;
+  margin-left: -140px;
+}
+.dfgyu{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 28px;
+  margin-top: 1470px;
+  margin-left: 400px;
+}
+.awsej{
+  display: flex;
+  color: #FFFFFF;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 1520px;
+  margin-left: -80px;
+}
+.sedfrttukug{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 28px;
+  margin-top: 1470px;
+  margin-left: 200px;
+}
+.line{
+  display: flex;
+  width: 304px;
+  height: 1px;
+  background-color: #FFFFFF;
+  margin-top: 1540px;
+  margin-left: -120px;
+}
+.eayuyweq{
+  display: flex;
+  color: #FFFFFF;
+  font-size: 20px;
+  margin-top: 1510px;
+  margin-left: -91px;
+}
+.ewrtyh{
+  display: flex;
+  width: 146px;
+  height: 146px;
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  margin-top: 1600px;
+
+}
+.frame{
+  display: flex;
+  width: 54px;
+  height: 25px;
+  margin-top: 60px;
+  margin-left: 50px;
+}
+.crecer{
+  display: flex;
+  width: 1009px;
+  height: 229px;
+  margin-top: 1700px;
+  margin-left: -1600px;
+}
+.last{
+  display: flex;
+  width: 322px;
+  height: 24px;
+  background-color: #B0B0B0;
+  justify-content: center;
+  margin-top: 1800px;
+  margin-left: 400px;
+}
+.USA{
+  display: flex;
+  width: 128px;
+  height: 39px;
+  border-radius: 20px;
+  background-color: #FFFFFF;
+}
